@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>name of the website</title>
+</head>
+
+<body>
+    <div class="cursor-container" id="cursor-container">
+        <img id="arrow" src="assets/arrow.png">
+    </div>
+    <header>
+        <video autoplay muted loop id="background-video">
+            <source src="assets/background-video.mp4" type="video/mp4">
+        </video>
+        <div class="header-wrapper">
+            <div class="logo">
+                <img src="assets/logo.png">
+                <p>Ваше название</p>
+            </div>
+            <ul>
+                <li><a href="#photo-gallery">фото</a></li>
+                <li><a href="#text-gradient">текст</a></li>
+                <li><a href="#blocks">блок фото + текст</a></li>
+                <li><a href="#running-text">бегущая строка</a></li>
+                <li><a href="#some-video">видео</a></li>
+                <li><a href="#contacts">контакты</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="fill-content">
+        <div id="photo-gallery" class="photo-wrapper">
+            <div class="first-column">
+                <div class="photo">
+                    <img src="assets/photo1.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="photo">
+                    <img src="assets/photo2.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="photo">
+                    <img src="assets/photo3.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="second-column">
+                <div class="photo">
+                    <img src="assets/photo4.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="photo">
+                    <img src="assets/photo5.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="photo">
+                    <img src="assets/photo6.jpg">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+        <div id="text-gradient" class="karaoke"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                perferendis voluptates
+                iste eos quas dolorem, harum voluptatum excepturi libero doloribus ullam quod. Sapiente cum sequi
+                voluptatibus in, voluptatem et illum!</span>
+        </div>
+        <div id="blocks" class="container">
+            <hr class="horizontal-line">
+            <div class="first-title-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/image.jpg">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <hr class="horizontal-line" style="margin-top: 10%;">
+            <div class="first-title-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/image.jpg">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <hr class="horizontal-line " style="margin-top: 10%;">
+            <div class="first-title-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/image.jpg">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div id="running-text-wrapper" class="running-text-wrapper">
+            <div id="running-text" class="running-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div id="some-video" class="video-wrapper">
+            <video autoplay muted loop id="background-video-footer">
+                <source src="/assets/background-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="moving-images-wrapper" class="moving-images-wrapper">
+        <div class="container-carousel">
+            <div id="first-moving-images" class="first-moving-images">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+            </div>
+            <div id="second-moving-images" class="second-moving-images">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+            </div>
+            <div id="third-moving-images" class="third-moving-images">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+            </div>
+            <div id="fourth-moving-images" class="fourth-moving-images">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+                <img src="assets/image-moving.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="contacts" class="title-footer">Keep in touch
+            <p>start conversarion
+                <span>pochta@pochta.com</span>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
